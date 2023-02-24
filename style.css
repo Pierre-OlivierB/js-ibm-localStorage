@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  /* background: red; */
+  height: 100vh;
+}
+.container {
+  /* border: 1px solid black; */
+  height: 100%;
+  padding: 5px;
+  /* margin: 5px; */
+}
+.content {
+  height: 100%;
+  width: 100%;
+  border: 1px solid hsl(0, 0%, 0%);
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card {
+  width: 45%;
+  height: 45%;
+  border: 1px solid hsl(6, 93%, 71%);
+  border-radius: 5px;
+  box-shadow: 6px 7px 5px 5px hsl(0, 0%, 50%);
+  background: hsl(0, 0%, 95%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 5px;
+  overflow: hidden;
+}
+.card section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+}
+button,
+input[type="submit"] {
+  width: 50%;
+  height: 35px;
+  border: 1px solid transparent;
+  background-color: hsl(0, 0%, 75%);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+button:hover,
+input[type="submit"]:hover {
+  background-color: hsl(6, 93%, 71%);
+  transform: scale(1.1);
+}
+.squarre {
+  width: 80%;
+  height: 60%;
+  border: 1px solid black;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3px;
+}
+.squarre p {
+  margin-right: 5px;
+}
+.text-input {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.text-input input[type="text"] {
+  width: 60%;
+}
+.row-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.row-btn button {
+  margin: 1px;
+}
+.btn-red,
+.btn-red:hover {
+  border-color: hsl(0, 80%, 50%);
+  background-color: hsl(0, 80%, 75%);
+}
+.btn-green,
+.btn-green:hover {
+  border-color: hsl(120, 80%, 50%);
+  background-color: hsl(120, 80%, 75%);
+}
+.btn-blue,
+.btn-blue:hover {
+  border-color: hsl(240, 80%, 50%);
+  background-color: hsl(240, 80%, 75%);
+}
+.btn-rainbow,
+.btn-rainbow:hover {
+  border-color: hsl(39, 100%, 50%);
+  background-color: hsl(39, 100%, 75%);
+}
+#third_card {
+  font-size: 2rem;
+}
+#third_card li {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: border 1s ease;
+  text-align: center;
+}
+#third_card li:hover {
+  cursor: pointer;
+  border-color: black;
+}
+#list {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#list li {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#list li button {
+  max-width: 50px;
+}
+.fruit ul {
+  display: flex;
+  list-style: none;
+}
+/* .fruits ul li {
+    margin-right: 5px !important;
+  } */
